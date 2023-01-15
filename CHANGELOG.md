@@ -175,7 +175,7 @@ If you have custom built strategies, you should can use `Assent.Strategy.normali
   * `PowAssent.Ecto.UserIdentities.Context.get_user_by_provider_uid/3`
   * `PowAssent.Ecto.UserIdentities.Context.upsert/3`
   * `PowAssent.Ecto.UserIdentities.Context.create_user/4`
-* Fixed bug where invited user was not signed in after succesful authorization
+* Fixed bug where invited user was not signed in after successful authorization
 * Fixed bug where releases with Elixir 1.9.0 didn't have `:httpc` available
 
 ## v0.3.0 (2019-05-19)

@@ -76,7 +76,7 @@ defmodule PowAssent.Plug do
 
   The value of `:pow_assent_callback_state` may be one of the following:
 
-  - `{:error, :strategy}` - An error ocurred during strategy callback
+  - `{:error, :strategy}` - An error occurred during strategy callback
       phase. `:pow_assent_callback_error` will be populated with the error.
   - `{:ok, :upsert_user_identity}` - User identity was created or updated.
   - `{:error, :upsert_user_identity}` - User identity could not be created
@@ -395,7 +395,7 @@ defmodule PowAssent.Plug do
   end
 
   @doc """
-  Fetch PowAssent configuration from the Pow configration.
+  Fetch PowAssent configuration from the Pow configuration.
 
   Calls `Pow.Plug.fetch_config/1` and fetches the `pow_assent` key value.
   """
